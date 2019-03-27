@@ -1,0 +1,23 @@
+{
+    "name": "leshgans/test-laravel-package",
+    "description": "добавление и редактирование продуктов",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "leshgans@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "leshgans\\testLaravelPackage\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Leshgans\\TestLaravelPackage\\": "src/"
+        }
+    }
+}
