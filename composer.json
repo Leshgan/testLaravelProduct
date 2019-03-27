@@ -1,5 +1,5 @@
 {
-    "name": "leshgans/test-laravel-package",
+    "name": "leshgan/testLaravelPackage",
     "description": "добавление и редактирование продуктов",
     "authors": [
         {
@@ -8,16 +8,19 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
-                "leshgans\\testLaravelPackage\\ServiceProvider"
+                "leshgan\\testLaravelPackage\\TestPackageServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Leshgans\\TestLaravelPackage\\": "src/"
+            "Leshgan\\TestLaravelPackage\\": "src/"
         }
     }
 }

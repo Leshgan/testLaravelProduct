@@ -1,6 +1,6 @@
 <?php
 
-namespace Leshgans\TestLaravelPackage;
+namespace Leshgan\testLaravelPackage;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Gate;
@@ -15,7 +15,7 @@ class TestPackageServiceProvider extends ServiceProvider
     public function register()
     {
         // $this->app->register('Leshgans\TestLaravelPackage\TestProductAuthServiceProvider');
-        $this->app->make('Leshgans\TestLaravelPackage\ProductController');
+        $this->app->make('Leshgan\testLaravelPackage\ProductController');
         $this->app->bind('current_user_type', function () {
             return 'admin';
         });

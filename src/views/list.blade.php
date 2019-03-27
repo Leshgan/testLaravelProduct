@@ -34,14 +34,6 @@
 				  	@endforeach
 				  </tbody>
 			</table>
-			<ul class="list-group">
-				@foreach ($products as $product)
-					<li class="list-group-item">
-						{{ $product->name }} ({{ $product->art }}) 
-					</li>
-				@endforeach
-				
-			</ul>
 		</div>
 	@endif
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leshgans\TestLaravelPackage;
+namespace Leshgan\testLaravelPackage;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
