@@ -14,13 +14,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "leshgan\\testLaravelPackage\\TestPackageServiceProvider"
+                "Leshgan\\testLaravelPackage\\TestPackageServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Leshgan\\TestLaravelPackage\\": "src/"
+            "Leshgan\\testLaravelPackage\\": "src/"
         }
     }
 }
